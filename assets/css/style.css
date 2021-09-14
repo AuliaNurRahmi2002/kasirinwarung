@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #666666;
@@ -15,7 +16,7 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 a:hover, a:active, a:focus {
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #7BB4FD;
   color: #fff;
 }
 
@@ -117,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
@@ -233,8 +235,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #7BB4FD;
+  border: 2px solid #7BB4FD;
 }
 
 /*--------------------------------------------------------------
@@ -332,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: #7BB4FD;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -366,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: #7BB4FD;
   color: #fff;
 }
 
@@ -454,11 +456,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #mobile-body-overly {
@@ -578,6 +580,12 @@ section {
   width: 261px;
   height: 474px;
 }
+#about .about-container .background img .about{
+     text-align: center;    
+}
+img .about{
+  
+}
 
 #about .about-container .background .about{
   margin: auto;
@@ -623,11 +631,11 @@ section {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #7BB4FD;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #7BB4FD;
   font-size: 24px;
 }
 
@@ -659,7 +667,7 @@ section {
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #facts .counters p {
@@ -671,6 +679,7 @@ section {
 
 /* Services Section
 --------------------------------*/
+
 #services {
   background: #fff;
   background-size: cover;
@@ -701,29 +710,31 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #7BB4FD;
 }
 
 #services .icon a {
   display: inline-block;
+  
 }
 
 #services .icon i {
   color: #fff;
   font-size: 24px;
+  
 }
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #7BB4FD;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #services .title {
@@ -790,8 +801,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #7BB4FD;
+  border: 2px solid #7BB4FD;
 }
 
 /* Portfolio Section
@@ -825,7 +836,7 @@ section {
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #2dc997;
+  background: #7BB4FD;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -851,7 +862,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #2dc997;
+  background: #7BB4FD;
   padding: 15px 20px;
 }
 
@@ -924,7 +935,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #2dc997 !important;
+  background-color: #7BB4FD !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1023,7 +1034,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #7BB4FD;
 }
 
 #team .member .social i {
@@ -1049,7 +1060,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #7BB4FD;
   float: left;
 }
 
@@ -1083,7 +1094,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #7BB4FD;
   color: #fff;
 }
 
@@ -1144,11 +1155,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: #7BB4FD;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #2dc997;
+  background: #7BB4FD;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1181,7 +1192,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: #7BB4FD;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
